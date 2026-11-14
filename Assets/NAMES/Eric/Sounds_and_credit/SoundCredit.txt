@@ -75,4 +75,27 @@ Sound Artist Name: Philip_Berger
 Sound Artist Link: https://freesound.org/people/Philip_Berger/
 License type: Creative Commons 0
 
+Sound Name: Permission Denied.wav
+Sound Link: https://freesound.org/people/ironcross32/sounds/582632/
+Sound Artist Name: ironcross32
+Sound Artist Link: https://freesound.org/people/ironcross32/
+License type: Creative Commons 0
+
+Sound Name: Metallic Clink 2.wav
+Sound Link: https://freesound.org/people/HenKonen/sounds/682153/
+Sound Artist Name: HenKonen
+Sound Artist Link: https://freesound.org/people/HenKonen/
+License type: Creative Commons 0
+
+Sound Name: Metal Creaks_Groans.wav
+Sound Link: https://freesound.org/people/Cell31_Sound_Productions/sounds/380403/
+Sound Artist Name: Cell31_Sound_Productions
+Sound Artist Link: https://freesound.org/people/Cell31_Sound_Productions/
+license type: Attribution 4.0
+
+Sound Name: METLImpt_Metal Resonant Deep Thud_SDFY_Metal Resonant.wav
+Sound Link: https://freesound.org/people/SoundDesignForYou/sounds/697751/
+Sound Artist Name: SoundDesignForYou
+Sound Artist Link: https://freesound.org/people/SoundDesignForYou/
+license type: Creative Commons 0
 
