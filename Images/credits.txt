@@ -11,7 +11,7 @@ Credits for each of the images.
  
  Image Name: Hello World
  Image File Name: art002e000192.jpg
- Credits to: Image Credit: NASA , Reid Wiseman, Artemis II
+ Credits to: NASA , Reid Wiseman, Artemis II
  Authors and Editors: 	Robert Nemiroff (MTU) & Jerry Bonnell (UMCP)
  
  Image Name: NGC 147 and NGC 185
@@ -19,10 +19,10 @@ Credits for each of the images.
  Credits to: Image Credit & Copyright: Chuck Ayoub
  Authors and Editors: 	Robert Nemiroff (MTU) & Jerry Bonnell (UMCP)
  
- Image Name: 
- Image File Name: 
- Credits to: 
- Authors and Editors: 
+ Image Name: A SWAN, an ATLAS, and Mars
+ Image File Name: C2025_R2_Swan_20250921s
+ Credits to: 	Image Credit & Copyright: Adam Block
+ Authors and Editors: 	Robert Nemiroff (MTU) & Jerry Bonnell (UMCP)
  
  Image Name: 
  Image File Name: 
