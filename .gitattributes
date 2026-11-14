@@ -1,3 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
 ## Unity ##
 
 *.cs diff=csharp text
@@ -16,7 +19,7 @@
 
 
 ## git-lfs ##
-
+*.cubemap filter=lfs diff=lfs merge=lfs -text
 #Image
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
