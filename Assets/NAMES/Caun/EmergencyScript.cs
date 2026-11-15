@@ -5,6 +5,7 @@ public class EmergencyScript : MonoBehaviour
 {
     public GameObject[] lights;
     public bool isFixed;
+    public GameObject Door;
     public float AlarmDelay;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,8 @@ public class EmergencyScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         StartCoroutine(Flash());
+        Door.GetComponent<DoorScript>().OpenDoor();
+        GetComponent<BoxCollider>().enabled = false;
     }
     public void FlashRed()
     {

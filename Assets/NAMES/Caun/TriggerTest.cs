@@ -22,8 +22,8 @@ public class TriggerTest : MonoBehaviour
     {
         isPressed = false;
         onCooldown = false;
+        isDoorOpen = Door.GetComponent<DoorScript>().isOpenedDoor;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -35,7 +35,7 @@ public class TriggerTest : MonoBehaviour
         {
             if (!isPressed && onCooldown == false)
             {
-                thisButton.transform.localPosition = new Vector3(0, 0.45f, 0);
+                thisButton.transform.localPosition = new Vector3(0, 0.0f, 0);
                 presser = other.gameObject;
                 onPress.Invoke();
                 isPressed = true;
@@ -44,7 +44,7 @@ public class TriggerTest : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        thisButton.transform.localPosition = new Vector3(0, 0.58f, 0);
+        thisButton.transform.localPosition = new Vector3(0, 0.05f, 0);
         onRelease.Invoke();
         isPressed = false;
     }
