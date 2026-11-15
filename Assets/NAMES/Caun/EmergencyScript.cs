@@ -20,9 +20,9 @@ public class EmergencyScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(Flash());
         Door.GetComponent<DoorScript>().OpenDoor();
         GetComponent<BoxCollider>().enabled = false;
+        StartCoroutine(Flash());
     }
     public void FlashRed()
     {
