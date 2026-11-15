@@ -16,7 +16,6 @@ public class DoorScript : MonoBehaviour
     }
     public void OpenDoor()
     {
-        Debug.Log("InDoorScript");
         animator.SetTrigger("Open Door");
     }
     public void CloseDoor()

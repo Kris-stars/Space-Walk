@@ -50,18 +50,17 @@ public class TriggerTest : MonoBehaviour
     }
     public void ChangeDoorState()
     {
-        Debug.Log("Reached event");
+        Debug.Log(otherButton.GetComponent<TriggerTest>().isDoorOpen);
         if (isDoorOpen)
         {
             StartCoroutine(DoorCoroutine(-1));
-            Debug.Log("Reached if");
+            isDoorOpen = !isDoorOpen;
         }
         else if (otherButton.GetComponent<TriggerTest>().isDoorOpen == false)
         {
             StartCoroutine(DoorCoroutine(1));
-            Debug.Log("Reached if else");
+            isDoorOpen = !isDoorOpen;
         }
-        isDoorOpen = !isDoorOpen;
         onCooldown = true;
         Invoke("TurnOffCooldown", 1);
     }
